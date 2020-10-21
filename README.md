@@ -1,4 +1,4 @@
-This react app is deployed on Firebase and using Firebase cloud messaging for notifications.
+This react app is deployed on Firebase and using Firebase cloud messaging for notifications.  
 This app is deployed [here](https://fir-messaging-9f9e0.web.app/)
 
 
