@@ -1,24 +1,26 @@
 This react app is deployed on Firebase and using Firebase cloud messaging for notifications.
 
 
-##Steps:
+## Steps:
 
 	1. Go to Fireabase console and create a cloud messaging type app in firebase and copy the credentials.
 	2. Create a file in src folder named firebase.js and paste the configs of your firebase app and firebase.initialiazeApp
 	3. In app.js get the token from firebase.messaging
-	4. Create a service worker file with the name of firebase-messaging-sw.js inside public folder and do this
-	importScripts('https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js')
+	4. Create a service worker file with the name of 'firebase-messaging-sw.js' inside public folder and do this
+	'''
+  importScripts('https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js')
 	importScripts('https://www.gstatic.com/firebasejs/7.24.0/firebase-messaging.js')
 	firebase.initializeApp({
-	  apiKey: "AIzaSyAksGx8xmxzbCqhyZkrpqPiqEXmQ-9d_QM",
+	  apiKey: "************",
 	  authDomain: "fir-messaging-9f9e0.firebaseapp.com",
 	  databaseURL: "https://fir-messaging-9f9e0.firebaseio.com",
 	  projectId: "fir-messaging-9f9e0",
 	  storageBucket: "fir-messaging-9f9e0.appspot.com",
-	  messagingSenderId: "808864221146",
-	  appId: "1:808864221146:web:1c7082056bd3594c58e2e3" 
+	  messagingSenderId: "**********",
+	  appId: "1:**********" 
 	})
 firebase.messaging();
+'''
 
 
 
